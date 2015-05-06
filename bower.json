@@ -1,0 +1,19 @@
+{
+  "name": "CourseraHelper",
+  "version": "0.1.0",
+  "authors": [
+    "Clouds <Clouds.Flowing@gmail.com>"
+  ],
+  "main": "background.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}

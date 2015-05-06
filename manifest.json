@@ -1,0 +1,15 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "Application for leave Coursera always on top.",
+   "icons": {
+      "128": "icon-blue-32x32.png"
+   },
+   "manifest_version": 2,
+   "name": "Coursera Player",
+   "permissions": [ "storage", "app.window", "alwaysOnTopWindows", "webview", "https://*.coursera.org/" ],
+   "version": "0.1"
+}
