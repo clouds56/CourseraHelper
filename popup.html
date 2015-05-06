@@ -1,5 +1,18 @@
 <html>
+<head>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" charset="utf-8">
+  <link rel="stylesheet" href="popup.css" charset="utf-8">
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="popup.js"></script>
+</head>
 <body>
-  Hello Coursera!
+  <form class="form-inline">
+    <input id="txtURL" type="text" class="form-control" placeholder="Coursera URL" value="https://class.coursera.org/scicomp-003/lecture/5" />
+    <button id="btnGo" class="btn btn-success" type="button">Go</button>
+    <button id="btnExt" class="btn btn-primary" type="button">Install Extension</button>
+  </form>
+  <div class="main">
+    <webview scrolling="no" frameborder="0" style="height: 100%; width: 100%;"></webview>
+  </div>
 </body>
 </html>
